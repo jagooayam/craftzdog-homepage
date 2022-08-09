@@ -108,7 +108,7 @@ const Home = () => (
           Worked at Yahoo! Japan (ヤフー株式会社入社)
         </BioSection>
         <BioSection>
-          <BioYear>2012 to present</BioYear>
+          <BioYear>2022 to present</BioYear>
           Working as a freelancer
         </BioSection>
       </Section>
