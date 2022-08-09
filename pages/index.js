@@ -69,7 +69,7 @@ const Home = () => (
           About me
         </Heading>
         <Paragraph>
-          Hello, My name is Muhammad riyu Im a freelance editor who love anime and video editing. I have experience editing since 2019 and im still learning lmao. I can provide you my best service on Banner design, Intro/outro, Stinger, Loading Screen, Logo Animation. Feel free to ask me any question ^^
+          Hello, My name is Muhammad Riyu Im a freelance editor who love anime and video editing. I have experience editing since 2019 and im still learning lmao. I can provide you my best service on Banner design, Intro/outro, Stinger, Loading Screen, Logo Animation. Feel free to ask me any question ^^
           <NextLink href="/works/inkdrop" passHref scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>
