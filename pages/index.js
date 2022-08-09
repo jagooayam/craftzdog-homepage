@@ -29,23 +29,13 @@ const ProfileImage = chakra(Image, {
 const Home = () => (
   <Layout>
     <Container>
-      <Box
-        borderRadius="lg"
-        mb={6}
-        p={3}
-        textAlign="center"
-        bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
-        css={{ backdropFilter: 'blur(10px)' }}
-      >
-        Hello, My name is Muhammad riyu Im a freelance editor who love anime and video editing. Feel free to ask me any question ^^
-      </Box>
-
+     
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
             Yuuza
           </Heading>
-          <p> ( Motion Graphic Designer )</p>
+          <p> Digital Designer ( Motion Graphic Designer )</p>
         </Box>
         <Box
           flexShrink={0}
@@ -76,15 +66,10 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About me
         </Heading>
         <Paragraph>
-          Takuya is a freelance and a full-stack developer based in Osaka with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
+          Hello, My name is Muhammad riyu Im a freelance editor who love anime and video editing. I have experience editing since 2019 and im still learning lmao. I can provide you my best service on Banner design, Intro/outro, Stinger, Loading Screen, Logo Animation. Feel free to ask me any question ^^
           <NextLink href="/works/inkdrop" passHref scroll={false}>
             <Link>Inkdrop</Link>
           </NextLink>
@@ -98,7 +83,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My Works
             </Button>
           </NextLink>
         </Box>
